@@ -60,8 +60,6 @@ vpc_sg_configuration.ipynb
 # macOS
 .DS_Store
 
-/data/**
-/data-dev/**
 !/data/**/.gitkeep
 /data-dev/
 
