@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = "An application to categorize the global sentiments towards real estate using advanced classifiers and pre-trained models finetuned on rich datasets, including finance-related reddit threads, tweets and articles, to decode the nuanced language of the real estate world."
+authors = ["Ayoub Azmi <azmiayoub50@gmail.com>"]
+# TODO add your names and emails here
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+pandas = "^2.2.1"
+praw = "^7.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
