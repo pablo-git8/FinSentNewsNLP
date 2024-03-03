@@ -6,6 +6,10 @@
 ![markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![powershell](https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)
+![Made with Docker](https://img.shields.io/badge/Made%20with-Docker-blue?style=for-the-badge&logo=Docker)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Overview
 This application developed with FastAPI, JavaScript and CSS specializes in categorizing financial texts into positive, negative, or neutral sentiments. It leverages data extracted from the [Bitcoin channel on Reddit's API](https://www.reddit.com/r/Bitcoin/) to analyze and visualize sentiment progression alongside actual cryptocurrency price trends. Additionally, the application offers a feature to classify user-input text into the aforementioned sentiment categories.
@@ -43,6 +47,33 @@ The fine-tuning process, utilizing Google Colab's GPU capabilities, is detailed 
 These targeted datasets allowed us to refine the model's understanding of cryptocurrency-related sentiments, significantly improving its predictive accuracy and relevance in financial text analysis within the crypto domain.
 
 ## Getting Started
+
+To get a local copy of this project up and running on your computer, follow these simple steps.
+
+### Prerequisites
+
+- Ensure you have Git installed on your machine. If not, follow the [Git installation guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for your specific operating system.
+
+### Cloning the Repository
+
+1. **Open your terminal or command prompt**. On Windows, you might use Command Prompt or PowerShell, and on macOS or Linux, you'll use the Terminal.
+
+2. **Navigate to the directory** where you want to clone the repository. Use the `cd` command to change directories. For example, to change to the Documents directory, you would type:
+   ```bash
+   cd Documents
+   ```
+
+3. **Clone the repository** by running the following command in your terminal. Replace `YourUsername` with your actual GitHub username if the repository is private and requires your GitHub credentials for cloning.
+   ```bash
+   git clone https://github.com/YourUsername/project-repository-name](https://github.com/pablo-git8/FinSentNewsNLP).git
+   ```
+
+4. **Navigate to the project directory** by running:
+   ```bash
+   cd FinSentNewsNLP
+   ```
+Now you have a local copy of the project, and you can start exploring the code and contributing to the project.
+
 
 ### Using Poetry
 The project dependencies are managed using Poetry. To install the dependencies and run the application, use the following commands:
