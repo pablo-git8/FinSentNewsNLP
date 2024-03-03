@@ -16,6 +16,7 @@ exercise_s4_dev.ipynb
 # Ayoub ignore
 /logs
 config/
+/models/large_FinBert_fine_tuned/model.safetensors
 
 .mypy_cache
 .vscode
