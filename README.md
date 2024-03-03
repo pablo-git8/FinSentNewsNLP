@@ -25,7 +25,6 @@ These are stored within the `data/raw` directory. The trained models and associa
 
 The Large FinBERT model was fine-tuned using a specialized dataset containing Bitcoin and cryptocurrency-related sentences, enhancing its performance for this domain.
 
-
 ## Development and Validation
 The development journey, including LLM and NLP training and validation processes, is thoroughly documented in Jupyter notebooks located in the `notebooks/` directory. Specifically, the `Assignment-04-Financial news analysis with NLP.ipynb` notebook provides insights into the initial phases of model development and training.
 
@@ -46,10 +45,6 @@ poetry install
 cd /main
 poetry run uvicorn app:app --reload
 ```
-
-Given that the Dockerfile is located inside the `docker/Docker` directory, you need to specify the path to that directory when building your Docker image. Here's the modified section of the README for using Docker:
-
----
 
 ### Using Docker
 For convenience, a Dockerfile is provided within the `docker/Docker` directory. To build and run the application using Docker, navigate to the root directory of the project and execute the following commands:
