@@ -13,6 +13,10 @@ exercise_s1_dev.ipynb
 aws_s3_dev.py
 exercise_s4_dev.ipynb
 
+# Ayoub ignore
+/logs
+config/
+
 .mypy_cache
 .vscode
 __pycache__
