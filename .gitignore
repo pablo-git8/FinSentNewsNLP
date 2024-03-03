@@ -17,6 +17,7 @@ exercise_s4_dev.ipynb
 /logs
 config/
 /models/large_FinBert_fine_tuned/model.safetensors
+/models/small_FinBERT_model.pkl
 
 .mypy_cache
 .vscode
