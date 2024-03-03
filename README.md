@@ -1,5 +1,12 @@
 # Financial Text Sentiment Analysis App
 
+![python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![terminal](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
+![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![powershell](https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)
+
 ## Overview
 This application specializes in categorizing financial texts into positive, negative, or neutral sentiments. It leverages data extracted from the [Bitcoin channel on Reddit's API](https://www.reddit.com/r/Bitcoin/) to analyze and visualize sentiment progression alongside actual cryptocurrency price trends. Additionally, the application offers a feature to classify user-input text into the aforementioned sentiment categories.
 
