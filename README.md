@@ -8,7 +8,7 @@
 ![jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)
 
 ## Overview
-This application specializes in categorizing financial texts into positive, negative, or neutral sentiments. It leverages data extracted from the [Bitcoin channel on Reddit's API](https://www.reddit.com/r/Bitcoin/) to analyze and visualize sentiment progression alongside actual cryptocurrency price trends. Additionally, the application offers a feature to classify user-input text into the aforementioned sentiment categories.
+This application developed with FastAPI, JavaScript and CSS specializes in categorizing financial texts into positive, negative, or neutral sentiments. It leverages data extracted from the [Bitcoin channel on Reddit's API](https://www.reddit.com/r/Bitcoin/) to analyze and visualize sentiment progression alongside actual cryptocurrency price trends. Additionally, the application offers a feature to classify user-input text into the aforementioned sentiment categories.
 
 ## Data and Models
 The sentiment analysis is powered by baseline logistic regression models and the more sophisticated FinBERT models, which are designed for financial text. The initial models were trained using the [Financial Phrasebank dataset](https://huggingface.co/datasets/financial_phrasebank), known for its human-annotated sentiment labels.
